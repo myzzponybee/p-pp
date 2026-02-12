@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    background: linear-gradient(45deg, #ffb3ec, #cdb4db, #a2d2ff, #bde0fe);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+
+
+/* NỀN CHUYỂN ĐỘNG */
+@keyframes gradientBG {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+/* HEADER */
+header {
+background: linear-gradient(to right, #ff69b4, #c77dff);
+color: white;
+text-align: center;
+padding: 25px;
+}
+
+header h1 {
+font-size: 45px;
+text-shadow: 3px 3px 8px #ff1493;
+}
+
+/* MENU */
+nav {
+text-align: center;
+padding: 12px;
+background-color: #ffb3ec;
+}
+
+nav a {
+text-decoration: none;
+margin: 15px;
+font-weight: bold;
+color: white;
+background-color: #c77dff;
+padding: 8px 15px;
+border-radius: 20px;
+transition: 0.3s;
+}
+
+nav a:hover {
+background-color: #ff69b4;
+transform: scale(1.1);
+}
+
+/* SECTION */
+.section {
+padding: 30px;
+text-align: center;
+}
+
+/* GRID NHÂN VẬT */
+.grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+}
+
+/* CARD */
+.card {
+background: white;
+border-radius: 25px;
+width: 260px;
+padding: 15px;
+box-shadow: 0 0 20px #ffb3ec;
+transition: transform 0.3s;
+}
+
+.card:hover {
+transform: scale(1.08);
+}
+
+/* ẢNH TRÒN */
+.card img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 50%;
+border: 5px solid #ff69b4;
+}
+
+/* FORM */
+form {
+background: white;
+width: 320px;
+margin: auto;
+padding: 20px;
+border-radius: 25px;
+box-shadow: 0 0 15px #c77dff;
+}
+
+input, textarea {
+width: 95%;
+padding: 8px;
+margin-bottom: 10px;
+border-radius: 10px;
+border: 1px solid #c77dff;
+}
+
+input[type="submit"] {
+background: linear-gradient(to right, #ff69b4, #c77dff);
+color: white;
+border: none;
+padding: 10px;
+border-radius: 20px;
+cursor: pointer;
+font-weight: bold;
+}
+
+input[type="submit"]:hover {
+background: linear-gradient(to right, #c77dff, #ff69b4);
+transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+background: linear-gradient(to right, #c77dff, #ff69b4);
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 20px;
+}
+header h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 19px;
+}
